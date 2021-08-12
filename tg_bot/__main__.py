@@ -61,7 +61,7 @@ You can find the list of available commands with /help.
 HELP_STRINGS = """
 Hey there! My name is *{}*.
 I'll be at your service take a look below to know how to use me.
-If you have any questions on how to use me, head over to @YuiiChanSupport
+If you have any questions on how to use me, head over to @vexanaSupport
 *Main* commands available:
  • /start: start the bot
  • /help: PM's you this message.

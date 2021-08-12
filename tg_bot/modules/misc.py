@@ -359,23 +359,23 @@ def stats(update, context):
 
     try:
         update.effective_message.reply_text(
-            f"*Yuii (@{context.bot.username}), *\n"
+            f"*Xlr8 Network present (@{context.bot.username}), *\n"
             + "Maintained by [Axel]](github.com/aksr-aashish)\n"
-            + "Built with <3 using python-telegram-bot\n\n"
+            + "Built with NIM using yarn 13.7\n\n"
             + status
-            + f"*• Running on commit*: `{sha}`\n"
+            + f"*• Running on initial followup*: `{sha}`\n"
             + "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + "\n\n*SRC*: [GitHub](https://github.com/aksr-aashish/akeno)",
+            + "\n\n*SRC*: [Support](https://t.me/vexanasupport)",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
         )
     except BaseException:
         update.effective_message.reply_text(
-            f"*Vexana (@{context.bot.username}), *\n"
+            f"*Xlr8 Network present (@{context.bot.username}), *\n"
             + "built by [Axel](https://t.me/itzz_axel)\n"
-            + "Built with <3 using python-telegram-bot\n"
-            + f"*• Running on commit*: `{sha}`\n"
+            + "Built with NIM using Yarn 13.7\n"
+            + f"*• Running on initial followup*: `{sha}`\n"
             "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
             + "\n\n*SRC*: [Support](https://t.me/vexanasupport)",

@@ -327,7 +327,7 @@ def export_data(update, context):
     tgl = time.strftime("%H:%M:%S - %d/%m/%Y", time.localtime(time.time()))
     context.bot.sendDocument(
         current_chat_id,
-        document=open("YuiiChan{}.backup".format(chat_id), "rb"),
+        document=open("vexana{}.backup".format(chat_id), "rb"),
         caption="*Successfully Exported backup:*\nChat: `{}`\nChat ID: `{}`\nOn: `{}`\n\nNote: This `vexana-Backup` was specially made for notes.".format(
             chat.title, chat_id, tgl
         ),

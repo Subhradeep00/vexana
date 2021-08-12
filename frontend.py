@@ -9,13 +9,13 @@ except ImportError:
     pver = "N/A"
 
 with window("About"):
-    add_text("Yui telegram bot")
-    add_text("Maintained with <3 by rshero (github.com/rshero)")
+    add_text("Vexana telegram bot")
+    add_text("Maintained with <3 by axel (github.com/aksr-aashish)")
     add_text("Enviroment:")
     add_text(f"Bot lib: python-telegram-bot v{pver}.", bullet=True)
     add_text(f"Python version: {python_version()}.", bullet=True)
     add_text("Source:")
-    add_text("GitHub: github.com/rshero/YuiiChan", bullet=True)
+    add_text("GitHub: github.com/aksr-aashish", bullet=True)
 
 with window("stats"):
     add_text("\n*Bot statistics*:\n"+ "\n".join([mod.__stats__() for mod in STATS]))

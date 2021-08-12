@@ -62,15 +62,15 @@ def inlinequery(update: Update, _) -> None:
             "keyboard": ".spb ",
         },
         {
-            "title": "Account info on Yuii",
+            "title": "Account info on vexana",
             "description": "Look up a Telegram account in Yuii database",
             "message_text": "Click the button below to look up a person in Yuii database using their Telegram ID",
-            "thumb_urL": "https://telegra.ph/file/145c818a6b4e5bc92765d.jpg",
+            "thumb_urL": "https://telegra.ph/file/4a7d5037bcdd1e74a517a.jpg",
             "keyboard": ".info ",
         },
         {
             "title": "About",
-            "description": "Know about Yuii",
+            "description": "Know about vexana",
             "message_text": "Click the button below to get to know about Yuii.",
             "thumb_urL": "https://telegra.ph/file/145c818a6b4e5bc92765d.jpg",
             "keyboard": ".about ",
@@ -173,7 +173,7 @@ def inlineinfo(query: str, update: Update, context: CallbackContext) -> None:
         nation_level_present = True
 
     if nation_level_present:
-        text += '[<a href="https://t.me/yuiichansupport/3655">?</a>]'.format(
+        text += '[<a href="https://t.me/vexanasupport/3655">?</a>]'.format(
             bot.username
         )
 
@@ -195,7 +195,7 @@ def inlineinfo(query: str, update: Update, context: CallbackContext) -> None:
             [
                 InlineKeyboardButton(
                     text="Report Error",
-                    url=f"https://t.me/yuiichansupport",
+                    url=f"https://t.me/vexanasupport",
                 ),
                 InlineKeyboardButton(
                     text="Search again",
@@ -226,8 +226,8 @@ def about(query: str, update: Update, context: CallbackContext) -> None:
     user = context.bot.get_chat(user_id)
     sql.update_user(user.id, user.username)
     about_text = f"""
-    Yuii (@{context.bot.username})
-    Maintained by [Rshero](t.me/rshero)
+    Vexana (@{context.bot.username})
+    Maintained by [axel](t.me/itzz_axel)
     Built with ❤️ using python-telegram-bot v{str(__version__)}
     Running on Python {python_version()}
     """
@@ -237,7 +237,7 @@ def about(query: str, update: Update, context: CallbackContext) -> None:
             [
                 InlineKeyboardButton(
                     text="Support",
-                    url=f"https://t.me/yuiichansupport",
+                    url=f"https://t.me/vexanasupport",
                 )
             ]
         ]
@@ -246,7 +246,7 @@ def about(query: str, update: Update, context: CallbackContext) -> None:
     results.append(
         InlineQueryResultArticle(
             id=str(uuid4()),
-            title=f"About Yuii (@{context.bot.username})",
+            title=f"About Vexana (@{context.bot.username})",
             input_message_content=InputTextMessageContent(
                 about_text, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
             ),
@@ -324,7 +324,7 @@ def spb(query: str, update: Update, context: CallbackContext) -> None:
             [
                 InlineKeyboardButton(
                     text="Report Error",
-                    url=f"https://t.me/yuiichansupport",
+                    url=f"https://t.me/vexanasupport",
                 ),
                 InlineKeyboardButton(
                     text="Search again",
@@ -475,7 +475,7 @@ def media_query(query: str, update: Update, context: CallbackContext) -> None:
                 [
                     InlineKeyboardButton(
                         text="Report error",
-                        url="t.me/yuiichansupport",
+                        url="t.me/vexanasupport",
                     ),
                     InlineKeyboardButton(
                         text="Search again",

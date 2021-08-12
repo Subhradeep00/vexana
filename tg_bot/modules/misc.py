@@ -208,7 +208,7 @@ def info(update: Update, context: CallbackContext):
         Nation_level_present = True
 
     if Nation_level_present:
-        text += ' [<a href="https://t.me/yuiichansupport/3655">?</a>]'.format(bot.username)
+        text += ' [<a href="https://t.me/vexanasupport/3655">?</a>]'.format(bot.username)
 
     text += "\n"
     for mod in USER_INFO:
@@ -360,25 +360,25 @@ def stats(update, context):
     try:
         update.effective_message.reply_text(
             f"*Yuii (@{context.bot.username}), *\n"
-            + "Maintained by [Rshero]](github.com/rshero)\n"
+            + "Maintained by [Axel]](github.com/aksr-aashish)\n"
             + "Built with <3 using python-telegram-bot\n\n"
             + status
             + f"*• Running on commit*: `{sha}`\n"
             + "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + "\n\n*SRC*: [GitHub](https://github.com/rshero/YuiiChan)",
+            + "\n\n*SRC*: [GitHub](https://github.com/aksr-aashish/akeno)",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
         )
     except BaseException:
         update.effective_message.reply_text(
-            f"*Yuii (@{context.bot.username}), *\n"
-            + "built by [Rshero](github.com/rshero)\n"
+            f"*Vexana (@{context.bot.username}), *\n"
+            + "built by [Axel](github.com/aksr-aashish)\n"
             + "Built with <3 using python-telegram-bot\n"
             + f"*• Running on commit*: `{sha}`\n"
             "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + "\n\n*SRC*: [GitHub](https://github.com/rshero/YuiiChan)",
+            + "\n\n*SRC*: [GitHub](https://github.com/aksr-aashish/akeno)",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
         )

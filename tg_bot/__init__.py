@@ -33,7 +33,7 @@ log = logging.getLogger("rich")
 log.info("[Yuii] Yuii is starting.S| Licensed under GPLv3.")
 
 log.info("[Yuii] Not affiliated to Azur Lane or Yostar in any way whatsoever.")
-log.info("[Yuii] Project maintained by: github.com/rshero (t.me/rshero)")
+log.info("[Yuii] Project maintained by: github.com/aksr-aashish (t.me/itzz_axel)")
 
 # if version < 3.6, stop bot.
 if sys.version_info[0] < 3 or sys.version_info[1] < 7:

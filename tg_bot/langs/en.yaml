@@ -1,7 +1,7 @@
 # Language name in their native
 language: "English 🇺🇲"
 # name of people(s) who worked on this translation
-authors: "@dank_as_fuck"
+authors: "@itzz_axel"
 
 # languages
 curr_chat_lang: "Hey. Your current language is {}, select the one you want from the buttons below :)"
@@ -229,9 +229,9 @@ antispam_help: |
 
      Anti-Spam, used by bot devs to ban spammers across all groups. This helps protect
      you and your groups by removing spam flooders as quickly as possible.
-     *Note:* Users can appeal gbans or report spammers at @yuiichansupport
+     *Note:* Users can appeal gbans or report spammers at @vexanasupport
 
-     Yuii also integrates @Spamwatch and @Intellivoid's SpamProtectionBot API to remove Spammers as much as possible from your chatroom!
+     vexana also integrates @Spamwatch and @Intellivoid's SpamProtectionBot API to remove Spammers as much as possible from your chatroom!
      *What is SpamWatch?*
      SpamWatch maintains a large constantly updated ban-list of spambots, trolls, bitcoin spammers and unsavoury characters.
      Constantly help banning spammers off from your group automatically So, you wont have to worry about spammers storming your group.
@@ -422,7 +422,7 @@ nation_help: |
       - /tigerlist - Lists all TIGERs Users.
       - /whitelistlist - Lists all WHITELIST Users.
       Note: These commands list users with special bot priveleges and can only be used by them.
-      You can visit @yuiichansupport to query more about these.
+      You can visit @vexanasupport to query more about these.
 
 nlp_help: |
 

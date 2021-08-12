@@ -373,12 +373,12 @@ def stats(update, context):
     except BaseException:
         update.effective_message.reply_text(
             f"*Vexana (@{context.bot.username}), *\n"
-            + "built by [Axel](github.com/aksr-aashish)\n"
+            + "built by [Axel](https://t.me/itzz_axel)\n"
             + "Built with <3 using python-telegram-bot\n"
             + f"*• Running on commit*: `{sha}`\n"
             "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + "\n\n*SRC*: [GitHub](https://github.com/aksr-aashish/akeno)",
+            + "\n\n*SRC*: [Support](https://t.me/vexanasupport)",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
         )

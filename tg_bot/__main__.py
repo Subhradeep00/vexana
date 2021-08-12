@@ -240,6 +240,10 @@ def start(update: Update, context: CallbackContext):
                                 text=gs(chat.id, "support_chat_link_btn"),
                                 url=f"https://t.me/vexana_support",
                             ),
+                            InlineKeyboardButton(
+                                 text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦 ⚡️",
+                                url=f"https://t.me/vexana_updates",
+                            )
                         ],
                     ]
                 ),

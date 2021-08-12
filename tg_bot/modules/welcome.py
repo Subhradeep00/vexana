@@ -225,7 +225,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
                 update.effective_chat.send_message(
-                    "Whoa! A member of the Yuii Chan Club just joined!",
+                    "Whoa! A member of the Vexana Club just joined!",
                     reply_to_message_id=reply,
                 )
 
@@ -258,7 +258,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome yourself
             elif new_mem.id == bot.id:
                 update.effective_chat.send_message(
-                    "Thanks for adding me! Join @yuiichansupport for support.",
+                    "Thanks for adding me! Join @vexanasupport for support.",
                     reply_to_message_id=reply,
                 )
 
@@ -534,7 +534,7 @@ def left_member(update: Update, context: CallbackContext):
             # Give the devs a special goodbye
             elif left_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "See you later at the Yuii Chan Club!",
+                    "See you later at the vexana Club!",
                     reply_to_message_id=reply,
                 )
                 return

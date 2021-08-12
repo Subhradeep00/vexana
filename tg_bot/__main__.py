@@ -52,8 +52,9 @@ from tg_bot.modules.language import gs
 
 PM_START_TEXT = """
 Hi {}, my name is {}!
-I am an Anime themed group management bot with some fun extras [;)](https://telegra.ph/file/095d7e696096e21b06447.jpg)
-
+I am a  Powerfull  group management bot, with some fun extras [;)](https://telegra.ph/file/4a7d5037bcdd1e74a517a.jpg)
+💍✗ 💍[Updates Channel](t.me/Vexana_Updates) 💙.
+💍✗ 💍[Support Group](t.me/Vexana_Support)💙.
 You can find the list of available commands with /help.
 """
 
@@ -77,7 +78,7 @@ And the following:
 )
 
 
-Yuii_IMG = "https://telegra.ph/file/145c818a6b4e5bc92765d.jpg"
+Yuii_IMG = "https://telegra.ph/file/4a7d5037bcdd1e74a517a.jpg"
 
 
 IMPORTED = {}
@@ -227,7 +228,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text=gs(chat.id, "src_btn"),
-                                url="https://github.com/rshero/YuiiChan",
+                                url="https://t.me/Vexana_Updates/4",
                             ),
                             InlineKeyboardButton(
                                 text="Try inline mode",
@@ -237,7 +238,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text=gs(chat.id, "support_chat_link_btn"),
-                                url=f"https://t.me/yuiichansupport",
+                                url=f"https://t.me/vexana_support",
                             ),
                         ],
                     ]

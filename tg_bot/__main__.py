@@ -78,7 +78,7 @@ And the following:
 )
 
 
-Yuii_IMG = "https://telegra.ph/file/4a7d5037bcdd1e74a517a.jpg"
+Vexana_img = "https://telegra.ph/file/4a7d5037bcdd1e74a517a.jpg"
 
 
 IMPORTED = {}
@@ -250,7 +250,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "Well I'm alive!\n<b>Working since:</b> <code>{}</code>".format(uptime),
+            "Yes Vexana is alive!\n<b>Working since:</b> <code>{}</code>".format(uptime),
             parse_mode=ParseMode.HTML,
         )
 
@@ -586,7 +586,7 @@ def donate(update: Update, context: CallbackContext):
         context: CallbackContext -
     """
 
-    update.effective_message.reply_text("I'm free for everyone! >_<")
+    update.effective_message.reply_text("I'm free for everyone drop a thnx to @itzz_axel! >_<")
 
 
 def migrate_chats(update: Update, context: CallbackContext):
@@ -661,7 +661,7 @@ def main():
 
     else:
         log.info(
-            f"Yuii started, Using long polling. | BOT: [@{dispatcher.bot.username}]"
+            f"Vexana started, Using long polling. | BOT: [@{dispatcher.bot.username}]"
         )
         updater.start_polling(allowed_updates=Update.ALL_TYPES, timeout=15, read_latency=4, drop_pending_updates=True)
     if len(argv) not in (1, 3, 4):
@@ -673,7 +673,7 @@ def main():
 
 if __name__ == "__main__":
     kp.start()
-    log.info("[Yuii] Successfully loaded modules: " + str(ALL_MODULES))
+    log.info("[Vexana] Successfully loaded modules: " + str(ALL_MODULES))
     telethn.start(bot_token=TOKEN)
     main()
     idle()

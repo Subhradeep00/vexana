@@ -1,7 +1,7 @@
 # Language name in their native
 language: "日本語 🇯🇵"
 # name of people(s) who worked on this translation
-authors: "@dank_as_fuck"
+authors: "@itzz_axel"
 
 # languages
 curr_chat_lang: "ねえ。現在の言語は {} です。下のボタンから、必要な言語を選択してください"
@@ -206,7 +206,7 @@ antispam_help: |
 
      Anti-Spam, used by bot devs to ban spammers across all groups. This helps protect
      you and your groups by removing spam flooders as quickly as possible.
-     *Note:* Users can appeal gbans or report spammers at @yuiichansupport
+     *Note:* Users can appeal gbans or report spammers at @Vexanasupport
 
      Yuii also integrates @Spamwatch API to remove Spammers as much as possible from your chatroom!
      *What is SpamWatch?*

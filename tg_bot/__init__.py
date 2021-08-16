@@ -30,56 +30,56 @@ logging.basicConfig(
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 log = logging.getLogger("rich")
 
-log.info("[Yuii] Yuii is starting.S| Licensed under GPLv3.")
+log.info("[Vexana] Vexana is starting.S| Licensed under GPLv3.")
 
-log.info("[Yuii] Not affiliated to Azur Lane or Yostar in any way whatsoever.")
-log.info("[Yuii] Project maintained by: github.com/aksr-aashish (t.me/itzz_axel)")
+log.info("[Vexana] Not affiliated to Azur Lane or Yostar in any way whatsoever.")
+log.info("[Vexana] Project maintained by: github.com/aksr-aashish (t.me/itzz_axel)")
 
 # if version < 3.6, stop bot.
 if sys.version_info[0] < 3 or sys.version_info[1] < 7:
     log.error(
-        "[Yuii] You MUST have a python version of at least 3.7! Multiple features depend on this. Bot quitting."
+        "[Vexana] You MUST have a python version of at least 3.7! Multiple features depend on this. Bot quitting."
     )
     quit(1)
 
 parser = ConfigParser()
 parser.read("config.ini")
-kigconfig = parser["kigconfig"]
+Vexanaconfig = parser["Vexanaconfig"]
 
 
-OWNER_ID = kigconfig.getint("OWNER_ID")
-OWNER_USERNAME = kigconfig.get("OWNER_USERNAME")
-APP_ID = kigconfig.getint("APP_ID")
-API_HASH = kigconfig.get("API_HASH")
-WEBHOOK = kigconfig.getboolean("WEBHOOK", False)
-URL = kigconfig.get("URL", None)
-CERT_PATH = kigconfig.get("CERT_PATH", None)
-PORT = kigconfig.getint("PORT", None)
-INFOPIC = kigconfig.getboolean("INFOPIC", False)
-DEL_CMDS = kigconfig.getboolean("DEL_CMDS", False)
-STRICT_GBAN = kigconfig.getboolean("STRICT_GBAN", False)
-ALLOW_EXCL = kigconfig.getboolean("ALLOW_EXCL", False)
+OWNER_ID = Vexanaconfig.getint("OWNER_ID")
+OWNER_USERNAME = Vexanaconfig.get("OWNER_USERNAME")
+APP_ID = Vexanaconfig.getint("APP_ID")
+API_HASH = Vexanaconfig.get("API_HASH")
+WEBHOOK = Vexanaconfig.getboolean("WEBHOOK", False)
+URL = Vexanaconfig.get("URL", None)
+CERT_PATH = Vexanaconfig.get("CERT_PATH", None)
+PORT = Vexanaconfig.getint("PORT", None)
+INFOPIC = Vexanaconfig.getboolean("INFOPIC", False)
+DEL_CMDS = Vexanaconfigg.getboolean("DEL_CMDS", False)
+STRICT_GBAN = Vexanaconfig.getboolean("STRICT_GBAN", False)
+ALLOW_EXCL = Vexanaconfig.getboolean("ALLOW_EXCL", False)
 CUSTOM_CMD = ["/", "!"]
-BAN_STICKER = kigconfig.get("BAN_STICKER", None)
-TOKEN = kigconfig.get("TOKEN")
+BAN_STICKER = Vexanaconfig.get("BAN_STICKER", None)
+TOKEN = Vexanaconfig.get("TOKEN")
 NO_LOAD = []
-DB_URI = kigconfig.get("SQLALCHEMY_DATABASE_URI")
-MESSAGE_DUMP = kigconfig.getfloat("MESSAGE_DUMP")
-GBAN_LOGS = kigconfig.getfloat("GBAN_LOGS")
+DB_URI = Vexanaconfig.get("SQLALCHEMY_DATABASE_URI")
+MESSAGE_DUMP = Vexanaconfig.getfloat("MESSAGE_DUMP")
+GBAN_LOGS = Vexanaconfig.getfloat("GBAN_LOGS")
 SUDO_USERS = get_user_list("elevated_users.json", "sudos")
 DEV_USERS = get_user_list("elevated_users.json", "devs")
 SUPPORT_USERS = get_user_list("elevated_users.json","supports")
 TIGER_USERS ="1926166977, 1811745203, 1890976026"
 WHITELIST_USERS = get_user_list("elevated_users.json", "whitelists")
 SPAMMERS = get_user_list("elevated_users.json", "spammers")
-spamwatch_api = kigconfig.get("spamwatch_api")
-CASH_API_KEY = kigconfig.get("CASH_API_KEY")
-SPB_MODE = kigconfig.getboolean('SPB_MODE', False)
-TIME_API_KEY = kigconfig.get("TIME_API_KEY")
-WALL_API = kigconfig.get("WALL_API")
-LASTFM_API_KEY = kigconfig.get("LASTFM_API_KEY")
+spamwatch_api = Vexanaconfig.get("spamwatch_api")
+CASH_API_KEY = Vexanaconfig.get("CASH_API_KEY")
+SPB_MODE = Vexanaconfig.getboolean('SPB_MODE', False)
+TIME_API_KEY = Vexanaconfig.get("TIME_API_KEY")
+WALL_API = Vexanaconfig.get("WALL_API")
+LASTFM_API_KEY = Vexanaconfig.get("LASTFM_API_KEY")
 try:
-    CF_API_KEY = kigconfig.get("CF_API_KEY")
+    CF_API_KEY = Vexanaconfig.get("CF_API_KEY")
     log.info("[NLP] AI antispam powered by Intellivoid.")
 except:
     log.info("[NLP] No Coffeehouse API key provided.")

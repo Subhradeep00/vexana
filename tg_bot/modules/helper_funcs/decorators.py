@@ -6,7 +6,7 @@ from typing import Optional, Union, List
 
 
 
-class KigyoTelegramHandler:
+class VexanaTelegramHandler:
     def __init__(self, d):
         self._dispatcher = d
 
@@ -81,7 +81,7 @@ class KigyoTelegramHandler:
             return func
         return _inlinequery
 
-Vexanacmd = KigyoTelegramHandler(d).command
-Vexanamsg = KigyoTelegramHandler(d).message
-Vexanacallback = KigyoTelegramHandler(d).callbackquery
-Vexanainline = KigyoTelegramHandler(d).inlinequery
+Vexanacmd = VexanaTelegramHandler(d).command
+Vexanamsg = VexanaTelegramHandler(d).message
+Vexanacallback = VexanaTelegramHandler(d).callbackquery
+Vexanainline = VexanaTelegramHandler(d).inlinequery

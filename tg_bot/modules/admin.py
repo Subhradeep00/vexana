@@ -133,11 +133,11 @@ def demote(update: Update, context: CallbackContext) -> str:
         return
 
     if user_member.status == "creator":
-        message.reply_text("This person CREATED the chat, how would I demote them?")
+        message.reply_text("This person CREATED the chat, how would I demote them? you so noob making fun of youself")
         return
 
     if user_member.status != "administrator":
-        message.reply_text("Can't demote what wasn't promoted!")
+        message.reply_text("Can't demote what wasn't promoted! you so noob making fun of youself")
         return
 
     if user_id == bot.id:
@@ -161,7 +161,7 @@ def demote(update: Update, context: CallbackContext) -> str:
 
         bot.sendMessage(
             chat.id,
-            f"<b>{user_member.user.first_name or user_id or None}</b> was demoted by <b>{message.from_user.first_name or None}</b> in <b>{chat.title or None}</b>",
+            f"<b>{user_member.user.first_name or user_id or None}</b> was demoted by <b>{message.from_user.first_name or None}</b> in <b>{chat.title or None}</b> Powered by @VexanaFanClub",
             parse_mode=ParseMode.HTML,
         )
 
@@ -212,7 +212,7 @@ def set_title(update: Update, context: CallbackContext):
 
     if user_member.status == "creator":
         message.reply_text(
-            "This person CREATED the chat, how can i set custom title for him?"
+            "This person CREATED the chat, how can i set custom title for him? you so noob making fun of youself"
         )
         return
 
@@ -245,7 +245,7 @@ def set_title(update: Update, context: CallbackContext):
 
     bot.sendMessage(
         chat.id,
-        f"Sucessfully set title for <code>{user_member.user.first_name or user_id}</code> "
+        f"Sucessfully set title for <code>{user_member.user.first_name or user_id}</code> Powered by @VexanaFanClub"
         f"to <code>{html.escape(title[:16])}</code>!",
         parse_mode=ParseMode.HTML,
     )

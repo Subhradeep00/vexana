@@ -10,76 +10,76 @@ DEFAULT_WELCOME = "Hey {first}, how are you?"
 DEFAULT_GOODBYE = "Nice knowing ya!"
 
 DEFAULT_WELCOME_MESSAGES = [
-    "{first} is here!",  # Discord welcome messages copied
-    "Ready player {first}",
-    "Genos, {first} is here.",
-    "A wild {first} appeared.",
-    "{first} came in like a Lion!",
-    "{first} has joined your party.",
-    "{first} just joined. Can I get a heal?",
-    "{first} just joined the chat - asdgfhak!",
-    "{first} just joined. Everyone, look busy!",
-    "Welcome, {first}. Stay awhile and listen.",
-    "Welcome, {first}. We were expecting you ( ͡° ͜ʖ ͡°)",
-    "Welcome, {first}. We hope you brought pizza.",
-    "Welcome, {first}. Leave your weapons by the door.",
-    "Swoooosh. {first} just landed.",
-    "Brace yourselves. {first} just joined the chat.",
-    "{first} just joined. Hide your bananas.",
-    "{first} just arrived. Seems OP - please nerf.",
-    "{first} just slid into the chat.",
-    "A {first} has spawned in the chat.",
-    "Big {first} showed up!",
-    "Where’s {first}? In the chat!",
-    "{first} hopped into the chat. Kangaroo!!",
-    "{first} just showed up. Hold my beer.",
-    "Challenger approaching! {first} has appeared!",
-    "It's a bird! It's a plane! Nevermind, it's just {first}.",
-    "It's {first}! Praise the sun! \o/",
-    "Never gonna give {first} up. Never gonna let {first} down.",
-    "Ha! {first} has joined! You activated my trap card!",
-    "Hey! Listen! {first} has joined!",
-    "We've been expecting you {first}",
-    "It's dangerous to go alone, take {first}!",
-    "{first} has joined the chat! It's super effective!",
-    "Cheers, love! {first} is here!",
-    "{first} is here, as the prophecy foretold.",
-    "{first} has arrived. Party's over.",
-    "{first} is here to kick butt and chew bubblegum. And {first} is all out of gum.",
-    "Hello. Is it {first} you're looking for?",
-    "{first} has joined. Stay a while and listen!",
-    "Roses are red, violets are blue, {first} joined this chat with you",
-    "It's a bird! It's a plane! - Nope, its {first}!",
-    "{first} Joined! - Ok.",  # Discord welcome messages end.
-    "All Hail {first}!",
-    "Hi, {first}. Don't lurk, Only Villans do that.",
-    "{first} has joined the battle bus.",
-    "A new Challenger enters!",  # Tekken
-    "Ok!",
-    "{first} just fell into the chat!",
-    "Something just fell from the sky! - oh, its {first}.",
-    "{first} Just teleported into the chat!",
-    "Hi, {first}, show me your Hunter License!",
-    "Welcome {first}, Leaving is not an option!",
-    "Run Forest! ..I mean...{first}.",
-    "Hey, {first}, Empty your pockets.",
-    "Hey, {first}!, Are you strong?",
-    "Call the Avengers! - {first} just joined the chat.",
-    "{first} joined. You must construct additional pylons.",
-    "Ermagherd. {first} is here.",
-    "Come for the Snail Racing, Stay for the Chimichangas!",
-    "Who needs Google? You're everything we were searching for.",
-    "This place must have free WiFi, cause I'm feeling a connection.",
-    "Speak friend and enter.",
-    "Welcome you are",
+    "{first} is here! powered by @vexanaFanCLub",  # Discord welcome messages copied
+    "Ready player {first} powered by @vexanaFanCLub",
+    "Genos, {first} is here powered by @vexanaFanCLub.",
+    "A wild {first} appeared powered by @vexanaFanCLub.",
+    "{first} came in like a Lion! powered by @vexanaFanCLub",
+    "{first} has joined your party powered by @vexanaFanCLub.",
+    "{first} just joined. Can I get a heal? powered by @vexanaFanCLub",
+    "{first} just joined the chat - Everyone make a clap! powered by @vexanaFanCLub",
+    "{first} just joined. Everyone, look busy! powered by @vexanaFanCLub",
+    "Welcome, {first}. Stay awhile and listen powered by @vexanaFanCLub.",
+    "Welcome, {first}. We were expecting you ( ͡° ͜ʖ ͡°) powered by @vexanaFanCLub",
+    "Welcome, {first}. We hope you brought pizza powered by @vexanaFanCLub.",
+    "Welcome, {first}. Leave your weapons by the door powered by @vexanaFanCLub.",
+    "Swoooosh. {first} just landed powered by @vexanaFanCLub.",
+    "Brace yourselves. {first} just joined the chat powered by @vexanaFanCLub.",
+    "{first} just joined. Hide your bananas powered by @vexanaFanCLub.",
+    "{first} just arrived. Seems OP - please nerf powered by @vexanaFanCLub.",
+    "{first} just slid into the chat powered by @vexanaFanCLub.",
+    "A {first} has spawned in the chat powered by @vexanaFanCLub.",
+    "Big {first} showed up! powered by @vexanaFanCLub",
+    "Where’s {first}? In the chat! powered by @vexanaFanCLub",
+    "{first} hopped into the chat. Kangaroo!! powered by @vexanaFanCLub",
+    "{first} just showed up. Hold my beer powered by @vexanaFanCLub.",
+    "Challenger approaching! {first} has appeared powered by @vexanaFanCLub!",
+    "It's a bird! It's a plane! Nevermind, it's just {first} powered by @vexanaFanCLub.",
+    "It's {first}! Praise the sun powered by @vexanaFanCLub! \o/",
+    "Never gonna give {first} up. Never gonna let {first} down powered by @vexanaFanCLub.",
+    "Ha! {first} has joined! You activated my trap card! powered by @vexanaFanCLub",
+    "Hey! Listen! {first} has joined! powered by @vexanaFanCLub",
+    "We've been expecting you {first} powered by @vexanaFanCLub",
+    "It's dangerous to go alone, take {first}! powered by @vexanaFanCLub",
+    "{first} has joined the chat! It's super effective! powered by @vexanaFanCLub",
+    "Cheers, love! {first} is here! powered by @vexanaFanCLub",
+    "{first} is here, as the prophecy foretold powered by @vexanaFanCLub.",
+    "{first} has arrived. Party's over powered by @vexanaFanCLub.",
+    "{first} is here to kick butt and chew bubblegum. And {first} is all out of gum powered by @vexanaFanCLub.",
+    "Hello. Is it {first} you're looking for? powered by @vexanaFanCLub",
+    "{first} has joined. Stay a while and listen! powered by @vexanaFanCLub",
+    "Roses are red, violets are blue, {first} joined this chat with you powered by @vexanaFanCLub",
+    "It's a bird! It's a plane! - Nope, its {first}! powered by @vexanaFanCLub",
+    "{first} Joined! - Ok powered by @vexanaFanCLub.",  # Discord welcome messages end.
+    "All Hail {first} powered by @vexanaFanCLub!",
+    "Hi, {first}. Don't lurk, Only Villans do that powered by @vexanaFanCLub.",
+    "{first} has joined the battle bus powered by @vexanaFanCLub.",
+    "A new Challenger enters! powered by @vexanaFanCLub",  # Tekken
+    "Ok welcone here powered by @vexanaFanCLub!",
+    "{first} just fell into the chat powered by @vexanaFanCLub!",
+    "Something just fell from the sky! - oh, its {first} powered by @vexanaFanCLub.",
+    "{first} Just teleported into the chat! powered by @vexanaFanCLub",
+    "Hi, {first}, show me your Hunter License! powered by @vexanaFanCLub",
+    "Welcome {first}, Leaving is not an option! powered by @vexanaFanCLub",
+    "Run Forest! ..I mean...{first} powered by @vexanaFanCLub.",
+    "Hey, {first}, Empty your pockets powered by @vexanaFanCLub.",
+    "Hey, {first}!, Are you strong? powered by @vexanaFanCLub",
+    "Call the Avengers! - {first} just joined the chat powered by @vexanaFanCLub.",
+    "{first} joined. You must construct additional pylons powered by @vexanaFanCLub.",
+    "Welcome. {first} is here powered by @vexanaFanCLub.",
+    "Come for the Snail Racing, Stay for the last hope! powered by @vexanaFanCLub",
+    "Who needs Google? You're everything we were searching for powered by @vexanaFanCLub.",
+    "This place must have free WiFi, cause I'm feeling a connection.powered by @vexanaFanCLub",
+    "Speak friend and enter.powered by @vexanaFanCLub",
+    "Welcome you are.powered by @vexanaFanCLub",
     "Welcome {first}, your princess is in another castle.",
     "Hi {first}, welcome to the dark side.",
-    "Hola {first}, beware of people with members of the Yuii Chan Club.",
+    "Hola {first}, beware of people with members of the Vexana Fan Club.",
     "Hey {first}, we have the droids you are looking for.",
-    "Hi {first}\nThis isn't a strange place, this is my home, it's the people who are strange.",
-    "Oh, hey {first} what's the password?",
-    "Hey {first}, I know what we're gonna do today",
-    "{first} just joined, be at alert they could be a spy.",
+    "Hi {first}\nThis isn't a strange place, this is my home, it's the people who are strange.powered by @vexanaFanCLub",
+    "Oh, hey {first} what's the password? powered by @vexanaFanCLub",
+    "Hey {first}, I know what we're gonna do today. powered by @vexanaFanCLub",
+    "{first} just joined, be at alert they could be a spy powered by @vexanaFanCLub.",
     "{first} joined the group, read by Mark Zuckerberg, CIA and 35 others.",
     "Welcome {first}, Watch out for falling monkeys.",
     "Everyone stop what you’re doing, We are now in the presence of {first}.",
@@ -90,9 +90,9 @@ DEFAULT_WELCOME_MESSAGES = [
     "{first} just arrived, the force is strong with this one.",
     "{first} just joined on president’s orders.",
     "Hi {first}, is the glass half full or half empty?",
-    "Yipee Kayaye {first} arrived.",
+    "Stay allert {first} arrived.",
     "Welcome {first}, if you’re a secret agent press 1, otherwise start a conversation",
-    "{first}, I have a feeling we’re not in Kansas anymore.",
+    "{first}, I have a feeling we’re not in VEXANA fan anymore.",
     "They may take our lives, but they’ll never take our {first}.",
     "Coast is clear! You can come out guys, it’s just {first}.",
     "Welcome {first}, Pay no attention to that guy lurking.",
@@ -106,28 +106,28 @@ DEFAULT_WELCOME_MESSAGES = [
     "*snaps fingers and teleports {first} here*",
     "{first} just arrived. Diable Jamble!",  # One Piece Sanji
     "{first} just arrived. Aschente!",  # No Game No Life
-    "{first} say Aschente to swear by the pledges.",  # No Game No Life
-    "{first} just joined. El psy congroo!",  # Steins Gate
-    "Irasshaimase {first}!",  # weeabo shit
+    "{first} say Ascent to swear by the pledges.",  # No Game No Life
+    "{first} just joined. El psy congo!",  # Steins Gate
+    "Irishman {first}!",  # weeabo shit
     "Hi {first}, What is 1000-7?",  # tokyo ghoul
     "Come. I don't want to destroy this place",  # hunter x hunter
-    "I... am... Whitebeard!...wait..wrong anime.",  # one Piece
+    "I... am... Whiteboard!...wait..wrong anime.",  # one Piece
     "Hey {first}...have you ever heard these words?",  # BNHA
     "Can't a guy get a little sleep around here?",  # Kamina Falls – Gurren Lagann
     "It's time someone put you in your place, {first}.",  # Hellsing
-    "Unit-01's reactivated..",  # Neon Genesis: Evangelion
+    "Unit-01's reactivated powered by @vexanaFanCLub..",  # Neon Genesis: Evangelion
     "Prepare for trouble....And make it double",  # Pokemon
     "Hey {first}, Are You Challenging Me?",  # Shaggy
     "Oh? You're Approaching Me?",  # jojo
     "{first} just warped into the group!",
     "I..it's..it's just {first}.",
-    "Sugoi, Dekai. {first} Joined!",
+    "Sago, Devika. {first} Joined!",
     "{first}, do you know Gods of death love apples?",  # Death Note owo
     "I'll take a potato chip.... and eat it",  # Death Note owo
-    "Oshiete oshiete yo sono shikumi wo!",  # Tokyo Ghoul
-    "Kaizoku ou ni...nvm wrong anime.",  # op
+    "Hi, {first}, show me your Hunter License!",  # Tokyo Ghoul
+    "Hi, {first}, show me your Hunter License!",  # op
     "{first} just joined! Gear.....second!",  # Op
-    "Omae wa mou....shindeiru",
+    "Hi, {first}, show me your Hunter License!",
     "Hey {first}, the leaf village lotus blooms twice!",  # Naruto stuff begins from here
     "{first} Joined! Omote renge!",
     "{first} joined!, Gate of Opening...open!",
@@ -138,12 +138,12 @@ DEFAULT_WELCOME_MESSAGES = [
     "{first} joined!, Gate of View...open!",
     "{first} joined!, Gate of Shock...open!",
     "{first} joined!, Gate of Death...open!",
-    "{first}! I, Madara! declare you the strongest",
-    "{first}, this time I'll lend you my power. ",  # Kyuubi to naruto
-    "{first}, welcome to the hidden leaf village!",  # Naruto thingies end here
-    "In the jungle you must wait...until the dice read five or eight.",  # Jumanji stuff
+    "{first}! I, Madera! declare you the strongest, powered by @vexanaFanCLub",
+    "{first}, this time I'll lend you my power.powered by @vexanaFanCLub ",  # Kyuubi to naruto
+    "{first}, welcome to the hidden leaf village! powered by @vexanaFanCLub",  # Naruto thingies end here
+    "In the jungle you must wait...until the dice read five or eight. powered by @vexanaFanCLub",  # Jumanji stuff
     "Dr.{first} Famed archeologist and international explorer,\nWelcome to Jumanji!\nJumanji's Fate is up to you now.",
-    "{first}, this will not be an easy mission - monkeys slow the expedition.",  # End of jumanji stuff
+    "{first}, this will not be an easy mission - monkeys slow the expedition.powered by @vexanaFanCLub",  # End of jumanji stuff
 ]
 DEFAULT_GOODBYE_MESSAGES = [
     "{first} will be missed.",
@@ -160,11 +160,11 @@ DEFAULT_GOODBYE_MESSAGES = [
     "Goodbye {first}! Guess who's gonna miss you :')",
     "Goodbye {first}! It's gonna be lonely without ya.",
     "Please don't leave me alone in this place, {first}!",
-    "Good luck finding better shitposters than us, {first}!",
+    "Good luck finding better shipmasters than us, {first}!",
     "You know we're gonna miss you {first}. Right? Right? Right?",
     "Congratulations, {first}! You're officially free of this mess.",
     "{first}. You were an opponent worth fighting.",
-    "You're leaving, {first}? Yare Yare Daze.",
+    "You're leaving, {first}? Are Are Daze.",
     "Bring him the photo",
     "Go outside!",
     "Ask again later",
@@ -188,7 +188,7 @@ DEFAULT_GOODBYE_MESSAGES = [
     "You are playing it wrong give me the controller",
     "Trust good people",
     "Live to die.",
-    "When life gives you lemons reroll!",
+    "When life gives you lemons rerolled!",
     "Well that was worthless",
     "I feel asleep!",
     "May your troubles be many",

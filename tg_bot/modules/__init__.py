@@ -19,5 +19,5 @@ def __list_all_modules():
 
 
 ALL_MODULES = __list_all_modules()
-log.info("[Yuii] Modules to load: %s", str(ALL_MODULES))
+log.info("[Vexana] Modules to load: %s", str(ALL_MODULES))
 __all__ = ALL_MODULES + ["ALL_MODULES"]

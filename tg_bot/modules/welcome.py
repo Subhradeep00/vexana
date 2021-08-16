@@ -214,18 +214,18 @@ def new_member(update: Update, context: CallbackContext):
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
                 update.effective_chat.send_message(
-                    "Oh hi, my creator.", reply_to_message_id=reply
+                    "Oh hi, Axel  my creator just joined.", reply_to_message_id=reply
                 )
                 welcome_log = (
                     f"{html.escape(chat.title)}\n"
                     f"#USER_JOINED\n"
-                    f"Bot Owner just joined the chat"
+                    f"Bot Owner Axel just joined the chat"
                 )
 
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
                 update.effective_chat.send_message(
-                    "Whoa! A member of the Vexana Club just joined!",
+                    "Whoa! A member of the Vexana Fan Club just joined!",
                     reply_to_message_id=reply,
                 )
 
@@ -534,7 +534,7 @@ def left_member(update: Update, context: CallbackContext):
             # Give the devs a special goodbye
             elif left_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "See you later at the vexana Club!",
+                    "See you later at the vexana Fan Club!",
                     reply_to_message_id=reply,
                 )
                 return

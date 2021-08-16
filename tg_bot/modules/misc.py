@@ -192,7 +192,7 @@ def info(update: Update, context: CallbackContext):
         text += f"\nThis person is my master"
         Nation_level_present = True
     elif user.id in DEV_USERS:
-        text += f"\nThis Person is a part of Yuii Chan Club"
+        text += f"\nThis Person is a part of Vexana Fan Club"
         Nation_level_present = True
     elif user.id in SUDO_USERS:
         text += f"\nThis person is a sudo user"
@@ -359,26 +359,26 @@ def stats(update, context):
 
     try:
         update.effective_message.reply_text(
-            f"*Xlr8 Network present (@{context.bot.username}), *\n"
-            + "Maintained by [Axel]](github.com/aksr-aashish)\n"
-            + "Built with NIM using yarn 13.7\n\n"
+            f"*Vexana Fan CLub present (@{context.bot.username}), *\n"
+            + "Maintained by [Axel @Itzz_AXEL]](github.com/aksr-aashish)\n"
+            + "Built From NIM using yarn 13.7\n\n"
             + status
-            + f"*• Running on initial followup*: `{sha}`\n"
+            + f"*• Running on FollowUp*: `{sha}`\n"
             + "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + "\n\n*SRC*: [Support](https://t.me/vexanasupport)",
+            + "\n\n*SRC*: [Support](https://t.me/vexanasupport) Must Join our Support group",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
         )
     except BaseException:
         update.effective_message.reply_text(
-            f"*Xlr8 Network present (@{context.bot.username}), *\n"
-            + "built by [Axel](https://t.me/itzz_axel)\n"
-            + "Built with NIM using Yarn 13.7\n"
-            + f"*• Running on initial followup*: `{sha}`\n"
+            f"*Vexana Fan CLub present (@{context.bot.username}), *\n"
+            + "Built by [Axel @Itzz_AXEL](https://t.me/itzz_axel)\n"
+            + "Built From NIM using Yarn 13.7\n"
+            + f"*• Running on FollowUp*: `{sha}`\n"
             "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + "\n\n*SRC*: [Support](https://t.me/vexanasupport)",
+            + "\n\n*SRC*: [Support](https://t.me/vexanasupport) Must Join our Support group",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
         )

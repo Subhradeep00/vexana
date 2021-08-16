@@ -41,7 +41,7 @@ def bl_user(update: Update, context: CallbackContext) -> str:
         return ""
 
     if user_id in BLACKLISTWHITELIST:
-        message.reply_text("No!\nNoticing members of Yuii Chan Club is my job.")
+        message.reply_text("No!\nNoticing members of vexana Fan Club is my job.")
         return ""
 
     try:

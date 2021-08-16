@@ -63,15 +63,15 @@ def inlinequery(update: Update, _) -> None:
         },
         {
             "title": "Account info on vexana",
-            "description": "Look up a Telegram account in Yuii database",
-            "message_text": "Click the button below to look up a person in Yuii database using their Telegram ID",
+            "description": "Look up a Telegram account in Vexana database",
+            "message_text": "Click the button below to look up a person in  Vexana database using their Telegram ID",
             "thumb_urL": "https://telegra.ph/file/4a7d5037bcdd1e74a517a.jpg",
             "keyboard": ".info ",
         },
         {
             "title": "About",
             "description": "Know about vexana",
-            "message_text": "Click the button below to get to know about Yuii.",
+            "message_text": "Click the button below to get to know about Vexana.",
             "thumb_urL": "https://telegra.ph/file/145c818a6b4e5bc92765d.jpg",
             "keyboard": ".about ",
         },
@@ -157,7 +157,7 @@ def inlineinfo(query: str, update: Update, context: CallbackContext) -> None:
         text += f"\n\nThis person is my master"
         nation_level_present = True
     elif user.id in DEV_USERS:
-        text += f"\n\nThis Person is a part of Yuii Chan Club"
+        text += f"\n\nThis Person is a part of Vexana Fan Club"
         nation_level_present = True
     elif user.id in SUDO_USERS:
         text += f"\n\nThis person is a sudo user"

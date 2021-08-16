@@ -79,7 +79,7 @@ def extract_user_and_text(
     except BadRequest as excp:
         if excp.message in ("User_id_invalid", "Chat not found"):
             message.reply_text(
-                "I don't seem to have interacted with this user before - please forward a message from "
+                "Vexana don't seem to have interacted with this user before - please forward a message from "
                 "them to give me control! (like a voodoo doll, I need a piece of them to be able "
                 "to execute certain commands...)"
             )
@@ -129,7 +129,7 @@ def extract_unt_fedban(
         user_id = get_user_id(user)
         if not user_id and not isinstance(user_id, int):
             message.reply_text(
-                "I don't have users on my DB.You will be able to interact with them if "
+                "Vexana don't have users on my DB.You will be able to interact with them if "
                 "you reply to the person's message, or forward one of the user's message"
             )
             return None, None
@@ -159,7 +159,7 @@ def extract_unt_fedban(
             user_id, int
         ):
             message.reply_text(
-                "I seem to have never interacted with this user "
+                "Vexana seem to have never interacted with this user "
                 "Previously - please forward a message from them to give me control! "
                 "(Like a voodoo doll, I need a piece to be able to "
                 "run a certain command ...)"

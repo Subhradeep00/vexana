@@ -2,7 +2,7 @@ from emoji import UNICODE_EMOJI
 from google_trans_new import LANGUAGES, google_translator
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext
-from tg_bot.modules.helper_funcs.decorators import kigcmd
+from tg_bot.modules.helper_funcs.decorators import VexanaCMD
 from tg_bot.modules.language import gs
 
 def get_help(chat):
@@ -10,7 +10,7 @@ def get_help(chat):
 
 __mod_name__ = "Translator"
 
-@kigcmd(command=['tr', 'tl'])
+@VexanaCMD(command=['tr', 'tl'])
 def totranslate(update: Update, context: CallbackContext):
     message = update.effective_message
     problem_lang_code = []

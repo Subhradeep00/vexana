@@ -78,7 +78,7 @@ And the following:
 )
 
 
-Vexana_img = "https://telegra.ph/file/4a7d5037bcdd1e74a517a.jpg"
+Vexana_IMG = "https://telegra.ph/file/4a7d5037bcdd1e74a517a.jpg"
 
 
 IMPORTED = {}
@@ -204,7 +204,7 @@ def start(update: Update, context: CallbackContext):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_photo(
-                photo=Yuii_IMG,
+                photo=Vexana_IMG,
                 caption=gs(chat.id, "pm_start_text").format(
                     escape_markdown(first_name),
                     escape_markdown(context.bot.first_name),

@@ -108,7 +108,7 @@ updater = tg.Updater(
     TOKEN,
     workers=min(32, os.cpu_count() + 4),
     request_kwargs={"read_timeout": 10, "connect_timeout": 10},
-    persistence=PostgresPersistence(SESSION),
+    #persistence=PostgresPersistence(SESSION),
 )
 telethn = TelegramClient(MemorySession(), APP_ID, API_HASH)
 dispatcher = updater.dispatcher

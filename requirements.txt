@@ -23,6 +23,7 @@ telethon==1.16.4
 configparser
 pyrogram
 tgcrypto
+gpytranslate
 alphabet_detector
 pyrate-limiter
 bleach

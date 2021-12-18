@@ -19,7 +19,7 @@ import time
 def shorten(description, info="anilist.co"):
     msg = ""
     if len(description) > 700:
-        description = description[0:500] + "...."
+        description = description[:500] + "...."
         msg += f"\n*Description*: _{description}_[Read More]({info})"
     else:
         msg += f"\n*Description*:_{description}_"

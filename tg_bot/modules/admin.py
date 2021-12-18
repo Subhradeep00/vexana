@@ -327,7 +327,7 @@ def invite(update: Update, context: CallbackContext):
 
     if chat.username:
         update.effective_message.reply_text(f"https://t.me/{chat.username}")
-    elif chat.type == chat.SUPERGROUP or chat.type == chat.CHANNEL:
+    elif chat.type in [chat.SUPERGROUP, chat.CHANNEL]:
         bot_member = chat.get_member(bot.id)
         if bot_member.can_invite_users:
             invitelink = bot.exportChatInviteLink(chat.id)
@@ -403,14 +403,12 @@ def adminlist(update, context):
                     user.id, html.escape(user.first_name + " " + (user.last_name or ""))
                 )
             )
-        # if user.username:
-        #    name = escape_markdown("@" + user.username)
         if status == "administrator":
             if custom_title:
                 try:
                     custom_admin_list[custom_title].append(name)
                 except KeyError:
-                    custom_admin_list.update({custom_title: [name]})
+                    custom_admin_list[custom_title] = [name]
             else:
                 normal_admin_list.append(name)
     for admin in normal_admin_list:
@@ -422,9 +420,9 @@ def adminlist(update, context):
             )
             custom_admin_list.pop(admin_group)
     text += "\n"
-    for admin_group in custom_admin_list:
+    for admin_group, value in custom_admin_list.items():
         text += "\n🚨 <code>{}</code>".format(admin_group)
-        for admin in custom_admin_list[admin_group]:
+        for admin in value:
             text += "\n<code> • </code>{}".format(admin)
         text += "\n"
     text += "\n🤖 Bots:"

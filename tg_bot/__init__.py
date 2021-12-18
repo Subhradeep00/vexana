@@ -120,8 +120,7 @@ kp = Client(
     bot_token=TOKEN,
     workers=min(32, os.cpu_count() + 4),
 )
-apps = []
-apps.append(kp)
+apps = [kp]
 
 
 async def get_entity(client, entity):
@@ -166,9 +165,7 @@ if CUSTOM_CMD and len(CUSTOM_CMD) >= 1:
 
 
 def spamfilters(text, user_id, chat_id):
-    # print("{} | {} | {}".format(text, user_id, chat_id))
-    if int(user_id) in SPAMMERS:
-        print("This user is a spammer!")
-        return True
-    else:
+    if int(user_id) not in SPAMMERS:
         return False
+    print("This user is a spammer!")
+    return True

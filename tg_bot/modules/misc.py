@@ -92,17 +92,15 @@ def get_id(update: Update, context: CallbackContext):
                 parse_mode=ParseMode.HTML,
             )
 
+    elif chat.type == "private":
+        msg.reply_text(
+            f"Your id is <code>{chat.id}</code>.", parse_mode=ParseMode.HTML
+        )
+
     else:
-
-        if chat.type == "private":
-            msg.reply_text(
-                f"Your id is <code>{chat.id}</code>.", parse_mode=ParseMode.HTML
-            )
-
-        else:
-            msg.reply_text(
-                f"This group's id is <code>{chat.id}</code>.", parse_mode=ParseMode.HTML
-            )
+        msg.reply_text(
+            f"This group's id is <code>{chat.id}</code>.", parse_mode=ParseMode.HTML
+        )
 
 
 def gifid(update: Update, _):
@@ -189,22 +187,22 @@ def info(update: Update, context: CallbackContext):
         pass
 
     if user.id == OWNER_ID:
-        text += f"\nThis person is my master"
+        text += '\nThis person is my master'
         Nation_level_present = True
     elif user.id in DEV_USERS:
-        text += f"\nThis Person is a part of Vexana Fan Club"
+        text += '\nThis Person is a part of Vexana Fan Club'
         Nation_level_present = True
     elif user.id in SUDO_USERS:
-        text += f"\nThis person is a sudo user"
+        text += '\nThis person is a sudo user'
         Nation_level_present = True
     elif user.id in SUPPORT_USERS:
-        text += f"\nThis person is one of my support user"
+        text += '\nThis person is one of my support user'
         Nation_level_present = True
     elif user.id in TIGER_USERS:
-        text += f"\nThis person is a tiger user"
+        text += '\nThis person is a tiger user'
         Nation_level_present = True
     elif user.id in WHITELIST_USERS:
-        text += f"\nThis person is a whitelist user"
+        text += '\nThis person is a whitelist user'
         Nation_level_present = True
 
     if Nation_level_present:
@@ -271,9 +269,7 @@ def ram(update: Update, _):
     cmd = "ps -o pid"
     output = shell(cmd)[0].decode()
     processes = output.splitlines()
-    mem = 0
-    for p in processes[1:]:
-        mem += int(
+    mem = sum(int(
             float(
                 shell(
                     "ps u -p {} | awk ".format(p)
@@ -283,7 +279,7 @@ def ram(update: Update, _):
                 .rstrip()
                 .replace("'", "")
             )
-        )
+        ) for p in processes[1:])
     update.message.reply_text(
         f"RAM usage = <code>{mem} MiB</code>", parse_mode=ParseMode.HTML
     )
@@ -312,10 +308,7 @@ def get_readable_time(seconds: int) -> str:
 
     while count < 4:
         count += 1
-        if count < 3:
-            remainder, result = divmod(seconds, 60)
-        else:
-            remainder, result = divmod(seconds, 24)
+        remainder, result = divmod(seconds, 60) if count < 3 else divmod(seconds, 24)
         if seconds == 0 and remainder == 0:
             break
         time_list.append(int(result))
